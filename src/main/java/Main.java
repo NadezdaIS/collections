@@ -1,4 +1,5 @@
 import listExamples.ListExamples;
+import mapExamples.MapExample;
 import queueExample.DeQueueExample;
 import queueExample.QueueExample;
 import setExamples.SetExample;
@@ -33,6 +34,24 @@ public class Main {
         System.out.println("=== Example DeQueExample ===");
         DeQueueExample deQueueExample = new DeQueueExample();
         deQueueExample.exampleDeque();
+
+
+        System.out.println("=== Example HashMapExample ===");
+        MapExample mapExample = new MapExample();
+        mapExample.firstExampleWIthHashMap();
+
+        System.out.println("=== Another Example CRUD HashMapExample ===");
+        mapExample.secondExampleWIthHashMap();
+
+        System.out.println("=== Example HashMap with Object ===");
+        mapExample.thirdExampleWithHashMapUsingObject();
+
+        System.out.println("=== Example TreeMap with Primitive types ===");
+        mapExample.firstExampleUsingTreeMap();
+
+        System.out.println("=== Example LinkedHashMap with  Objects ===");
+        mapExample.firstExampleUsingLinkedHashMap();
+
 
     }
 }
